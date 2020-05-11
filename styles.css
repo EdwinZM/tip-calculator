@@ -8,7 +8,7 @@ body {
 
 #container {
     width: 400px;
-    margin: 50px auto 90px;
+    margin: 90px auto 90px;
     padding: 50px;
     box-sizing: border-box;
     background: url('paper-pattern.jpg') top left repeat;
@@ -17,10 +17,10 @@ body {
     -moz-border-radius: 5px;
     border-radius: 5px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    justify-content: center !important;
 }
 
 h1 {
